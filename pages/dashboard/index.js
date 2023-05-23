@@ -4,7 +4,6 @@ import currencies from "../../lib/currencies.json";
 import { useDispatch, useSelector } from "react-redux";
 import { changeBaseCurrency, changeTotalIncome } from "@/redux/currencySlice";
 import axios from "axios";
-import { TransactionChart } from "@/components/TransactionChart";
 const { Option } = Select;
 
 
@@ -111,7 +110,7 @@ let incSum = 0;
   };
   return (
     <div className="container mx-auto mt-5 border  py-4 rounded-2xl h-auto">
-      <div className="flex items-center justify-between mt-4 mx-4">
+      <div className="flex flex-col md:flex-row gap-4 items-center justify-between my-4 mx-4">
         <h2 className="text-2xl font-bold text-gray-600  text-center">Transactions</h2>
         <div className=" flex items-center gap-2">
           <h3 className="text-white">Base Currency</h3>

@@ -33,7 +33,7 @@ const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul","Aug","Sep","Oct
     {contextHolder}
     <div className="w-full mb-3 ">
       
-      <div className="w-full  flex justify-between items-center gap-4 p-1 bg-white border border-gray-200 rounded-lg shadow sm:p-2 dark:bg-gray-800 dark:border-gray-700">
+      <div className="w-full  flex justify-between items-center gap-4 p-1 bg-white border border-gray-200 rounded-lg shadow sm:p-2  ">
 <div className="w-full">
 <div className="flex-shrink-0 relative">
           <span className="ml-4 absolute right-0 top-0 text-xs">

@@ -112,7 +112,7 @@ let incSum = 0;
   return (
     <div className="container mx-auto mt-5 border  py-4 rounded-2xl h-auto">
       <div className="flex items-center justify-between mt-4 mx-4">
-        <h2 className="text-2xl font-bold text-gray-700  text-center">Transactions</h2>
+        <h2 className="text-2xl font-bold text-gray-600  text-center">Transactions</h2>
         <div className=" flex items-center gap-2">
           <h3 className="text-white">Base Currency</h3>
           <Select

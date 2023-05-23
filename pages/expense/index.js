@@ -145,8 +145,8 @@ const Expenses = () => {
     <div className="container mx-auto mt-5 border  rounded-2xl px-5 mb-4 pb-6">
       <h2 className="text-2xl font-bold ml-4 mt-4 text-center text-gray-600">Expenses</h2>
       <div className="flex justify-center items-center rounded-xl bg-gray-100 mx-6 py-4 mt-2">
-        <h3 className="text-2xl font-medium">Total Expense : </h3>
-        <h2 className="text-red-400 text-2xl font-semibold"> {total.toFixed(2)} {baseCurrency}</h2>
+        <h3 className="md:text-2xl font-medium">Total Expense : </h3>
+        <h2 className="text-red-400 md:text-2xl font-semibold"> {total.toFixed(2)} {baseCurrency}</h2>
       </div>
 
       <div className="flex gap-10 mt-5 md:flex-row flex-col">

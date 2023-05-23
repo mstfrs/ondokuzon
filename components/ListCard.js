@@ -41,16 +41,16 @@ const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul","Aug","Sep","Oct
           </span>
         </div>
         <div className="flow-root">
-          <ul role="list" className="divide-y divide-gray-200 dark:divide-gray-700">
+          <ul role="list" className="divide-y divide-gray-200 ">
             <li className={`py-3 sm:py-4 `}>
               <div className="flex items-center justify-between ">
                 <div className="flex flex-row items-center gap-1">
                   <div className={`${income.transactionType==="income"?"bg-green-400":"bg-red-400" } w-3 h-3 rounded-full`}></div>
-                  <p className="text-sm font-medium text-gray-900 truncate dark:text-white uppercase">
+                  <p className="text-sm font-medium text-gray-900 truncate  uppercase">
                     {income.title}
                   </p>
                 </div>
-                <div className=" items-center  font-semibold text-gray-900 dark:text-white">
+                <div className=" items-center  font-semibold text-gray-900 ">
                   {income.amount} {income.financeType}
                 </div>
 
@@ -66,7 +66,7 @@ const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul","Aug","Sep","Oct
           </span>
         </div>
 </div>
-<div className=" items-center text-base font-semibold text-gray-900 dark:text-white">
+<div className=" items-center text-base font-semibold text-gray-900 ">
                   <FaTrash className="cursor-pointer" onClick={(e)=>handleDelete(income._id)} />
                 </div>
       </div>

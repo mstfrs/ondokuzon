@@ -132,15 +132,15 @@ let incSum = 0;
 
      <div className="flex flex-col md:flex-row justify-between">
      <div className="flex flex-1 justify-center items-center rounded-xl bg-gray-100 mx-6 p-4 mt-2">
-        <h3 className="text-xl font-medium">Total Income : </h3>
-        <h2 className="text-green-400 text-3xl font-semibold">
+        <h3 className="md:text-xl font-medium">Total Income : </h3>
+        <h2 className="text-green-400 md:text-2xl font-semibold">
           {" "}
           {totalIncome.toFixed(2)} {baseCurrency}
         </h2>
       </div>
       <div className="flex flex-1 justify-center items-center rounded-xl bg-gray-100 mx-6 p-4 mt-2">
-        <h3 className="text-xl font-medium">Total Expense : </h3>
-        <h2 className="text-red-400 text-3xl font-semibold">
+        <h3 className="md:text-xl font-medium">Total Expense : </h3>
+        <h2 className="text-red-400 md:text-2xl font-semibold">
           {" "}
           {totalExpense.toFixed(2)} {baseCurrency}
         </h2>
@@ -148,8 +148,8 @@ let incSum = 0;
      </div>
      
       <div className="flex justify-center items-center rounded-xl bg-gray-100 mx-6 py-4 mt-2">
-        <h3 className="text-2xl font-medium">Balance : </h3>
-        <h2 className="text-gray-400 text-3xl font-semibold">
+        <h3 className="md:text-2xl font-medium">Balance : </h3>
+        <h2 className="text-gray-400 md:text-2xl font-semibold">
           
           {(totalIncome-totalExpense).toFixed(2)} {baseCurrency}
         </h2>
